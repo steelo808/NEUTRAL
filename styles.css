@@ -464,8 +464,7 @@ body{
             letter-spacing: 2px;
             font-size: 8rem;
         }
-        .header{
-        }
+
         .wrapper{
             display:flex;
             justify-content:center;
@@ -474,10 +473,9 @@ body{
             width:100%;
         }
         .banner-content{
-            display:flex;
-            justify-content:center;
-            align-items:center;
-            margin:0;
+            margin-bottom:80px
+            
+
         }
         .main-text{
             font-size:0.9rem;
