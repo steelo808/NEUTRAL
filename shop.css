@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat|Tomorrow&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family:'montserrat', sans-serif;
+    box-sizing:border-box;
+}
+
+html, body{
+    height:100%;
+}
+
+header{
+    background:url(images/back-shop.jpg);
+    width:100%;
+    height:100vh;
+    position: absolute;
+    background-size: cover;
+}
+
+::-webkit-scrollbar{
+    width:2px;
+    background-color:#000;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:#ff0000;
+    border-radius:50%;
+}
+
+.hdr-img{
+    width:120px;
+    height:120px;
+}
+
+.main-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.nav-links ul{
+    list-style:none;
+}
+.nav-links li{
+    display:inline-block;
+}
+
+.nav-links li a{
+    text-decoration:none;
+    color: rgb(255, 252, 252);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 50px 0 50px;
+    padding:4px;
+}
+/* MAKES HOME LINK RED*********************************/
+.nav-links .currentpge{
+    color:red;
+}
+
+.nav-links li a:hover{
+    transition: all ease-in-out 0.5s;
+    color:red;
+}
+/*BUTTON EDITING****************************************/
+.nav-btn{
+    margin-right: 80px;
+    margin-left:-60px;
+}
+
+.nav-btn button{
+    border-radius: 50px;
+    padding:10px 30px 10px 30px;
+    margin-left:-100px;
+    cursor:pointer;
+    background-color: rgba(195, 5, 0, 0.5);
+    outline:none;
+}
+/*NOT DONE YET********************************NOT DONE***/
+.nav-btn button:hover{
+    background-color:rgba(245, 10, 2, 0.856);
+    transition: all ease-in-out 1s;
+}
+
+.btn-txt1{
+    font-size: 15px;
+}
+/*************************END OF NAVIGATION****************/
+.content-wrapper{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    margin-bottom:50px;
+}
+
+.content-wrapper h1{
+    color:rgb(255, 252, 252);
+    text-transform:uppercase;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+    font-size: 4rem;
+}
+#my-store-37385390{
+font-family:'montserrat', sans-serif;
+}
+.temp-text{
+    font-size: 0.8rem;
+    position:relative;
+    left:8px;
+    bottom: 30px;
+}
+
+.grid-wrapper{
+    display:grid;
+    grid-gap:2rem;
+    justify-content: stretch;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-img{
+    width:370px;
+    height:370px;
+    box-shadow:3px 3px 6px rgb(0, 0, 0);
+}
+.container{
+    position:relative;
+    z-index:0;
+}
+
+.container:hover{
+    transform: scale(1.1);
+}
+.container .div-txt{
+    position:absolute;
+    top:45%;
+    right:40%;
+    z-index:2;
+    color:rgb(255, 252, 252);
+    font-family:'Bebas Neue', cursive;
+    font-size:2.5rem;
+
+}
+
+.main-footer{
+    background-color:rgb(0, 0, 0);
+    padding:30px;
+    position:relative;
+    margin-top:auto;
+    color:white;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.main-footer h3{
+    font-size:25px;
+    letter-spacing: 3px;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: underline;
+}
+
+.main-footer p{
+    font-size:12px;
+    color:rgb(168, 168, 168);
+}
+
+.fs1{
+    width:300px;
+    margin:-30px 40px 0 40px;
+}
+
+.fs2{
+    width:500px;
+    margin:-30px 40px 0 40px;
+}
+
+.fs3{
+    width:400px;
+    margin:-30px 40px 0 40px;
+}
+
+.fs4{
+    width:300px;
+    margin:-30px 40px 0 40px;
+}
+
+.ftr-img{
+    position:absolute;
+    display:flex;
+    justify-content: space-around;
+    flex-direction: row;
+    float:left;
+}
+
+.social-icons{
+    width:50px;
+    height:50px;
+    margin:10px;
+}
+
+.ftr-btm{
+    background-color:rgb(10, 10, 10);
+    position: relative;
+    text-align:center;
+    color:rgb(168, 168, 168);
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+

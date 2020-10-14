@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Montserrat|Tomorrow&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family:'montserrat', sans-serif;
+    box-sizing:border-box;
+}
+html body li a{
+    list-style:none;
+    text-decoration:none;
+}
+
+body{
+    min-height: 100vh;
+    display:flex;
+    flex-direction: column;
+    background:url(images/ntr24.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:100%;
+    height:100%;
+}
+.hdr-img{
+    width:120px;
+    height:120px;
+}
+.main-nav{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.nav-links ul{
+    list-style:none;
+}
+.nav-links li{
+    display:inline-block;
+
+}
+
+.nav-links li a{
+    text-decoration:none;
+    color: rgb(255, 252, 252);
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 50px 0 50px;
+    padding:4px;
+}
+/* MAKES HOME LINK RED*********************************/
+.nav-links .currentpge{
+    color:red;
+}
+
+.nav-links li a:hover{
+    transition: all ease-in-out 0.5s;
+    color:red;
+}
+.nav-btn{
+    margin-right: 80px;
+    margin-left:-60px;
+}
+
+.nav-btn button{
+    border-radius: 50px;
+    padding:10px 30px 10px 30px;
+    margin-left:-100px;
+    cursor:pointer;
+    background-color: rgba(195, 5, 0, 0.5);
+    border-color:rgba(195, 5, 0, 0.5);
+    box-shadow:3px 3px 6px rgb(0, 0, 0);
+    outline:none;
+}
+
+.info-wrapper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    position: relative;
+    color: rgb(255, 252, 252);
+}
+.info-wrapper h3{
+    font-size:2rem;
+}
+.info-wrapper p{
+    margin-bottom:50px;
+}
+
+.main-head{
+    color:rgb(255, 252, 252);
+    margin-bottom:3rem;
+    justify-content:center;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 4px;
+    font-size: 4rem;
+
+}
