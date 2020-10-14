@@ -365,17 +365,40 @@ body{
             justify-content: center;
             flex-direction:column;
         }
+        .banner-content{
+            margin:0;
+            width:100%;
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            align-items:center;
+
+        }
+
+        .wrapper{
+            display:flex;
+            flex-direction:row;
+            justify-content:center;
+            align-items:center;
+        }
         .header{
             width:100%;
         }
-        .main-h1{
+        .about-h1{
             font-family: 'Bebas Neue', cursive;
             letter-spacing: 2px;
             font-size: 8rem;
+            position:absolute;
+            top:380px;
+            right:180px;
         }
         .main-text{
             font-size:0.9rem;
             margin-top:-10px;
+            position:absolute;
+            top:520px;
+            left:70px;
+            width:80%;
         }
 
         .main-footer{
@@ -385,6 +408,7 @@ body{
             padding:0;
             margin:0;
             height:120px;
+            width:100%;
         }
         .main-footer h3{
             font-size:1.3rem;
