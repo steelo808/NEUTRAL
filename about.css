@@ -491,13 +491,18 @@ body{
     left:0;
 }
 .about-h1{
-    font-size:8rem;
+    font-size:5rem;
+    position:absolute;
+    top:230px;
+    right:50px;
+    left:50px;
 }
 .main-text{
     font-size: 0.8rem;
-    width:80%;
     position:absolute;
-    right:30px;
+    left:40px;
+    top:320px;
+    line-height:1.2rem;
 }
 .nav-links{
     display:none;
