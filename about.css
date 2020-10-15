@@ -490,7 +490,9 @@ body{
     top:15px;
     left:0;
 }
-
+.about-h1{
+    font-size:8rem;
+}
 .main-text{
     font-size: 0.8rem;
     width:80%;
